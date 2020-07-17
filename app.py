@@ -16,7 +16,7 @@ app = Flask(__name__)
 def favorite_color():
     return render_template("favorite_color.html")
 
-    
+
 @app.route('/favorite_element', methods=['GET', 'POST'])
 def favorite_element():
     user_color = request.form["user_color"]
