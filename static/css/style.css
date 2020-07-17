@@ -37,11 +37,6 @@ form{
     font-size: large;
 }
 
-body{
-    background-image: url(https://i.pinimg.com/originals/e0/e2/09/e0e209283e4a1d55722e2bb18bcbd19d.jpg)
-
-}
-
 .header {
   padding: 60px;
   text-align: center;
@@ -49,3 +44,15 @@ body{
   color: white;
   font-size: 30px;
 }
+
+.main_page{
+    background-image: url('https://i.pinimg.com/originals/e0/e2/09/e0e209283e4a1d55722e2bb18bcbd19d.jpg');
+}
+
+.card-img-top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+} 
